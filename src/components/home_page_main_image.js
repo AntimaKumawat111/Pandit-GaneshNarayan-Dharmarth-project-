@@ -5,12 +5,12 @@ const Photo = () => {
   return (
     <div className={ImageCss.image_box}>
       <img
-        src={"/images/saveChildren.jpg"}
+        src={"/Images/saveChildren.jpg"}
         alt="children"
         id={ImageCss.save_children_Img}
       />
       <img
-        src={"/images/yellow_layer.jpg"}
+        src={"/Images/yellow_layer.jpg"}
         alt="yellowLayer"
         id={ImageCss.yellow_layer_Img}
       />
