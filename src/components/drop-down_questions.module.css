@@ -2,11 +2,11 @@
   width: 90%;
   margin: auto;
   height: auto;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 #heading {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: auto;
   font-size: 2rem;
   font-weight: 400;
@@ -17,7 +17,7 @@
 }
 
 #paragraph {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   font-size: 1.7rem;
   font-weight: 400;
   margin-bottom: 30px;
@@ -52,7 +52,7 @@
 }
 
 .open_index_div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
   border-top: none;
   font-size: 1.9rem;
