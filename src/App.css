@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+    /* background-color: rgb(200, 234, 246); */
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 65.5%;
+}

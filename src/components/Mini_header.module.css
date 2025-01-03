@@ -1,0 +1,455 @@
+.mini_header {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid green;
+}
+
+#ngo_Image {
+  width: 300px;
+  height: 150px;
+}
+
+.containers {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 150px;
+}
+
+.box {
+  display: flex;
+  font-weight: 400;
+  height: auto;
+  justify-content: space-between;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 30px;
+}
+
+.num {
+  font-size: 1.9rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+#insta_icon,
+#facebook_icon,
+#youtube_icon,
+#search_icon,
+#shoppingCart_icon,
+#person2_icon {
+  font-size: 3rem;
+}
+
+#insta_icon {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  color: white;
+  border-radius: 40%;
+}
+#facebook_icon {
+  color: blue;
+}
+
+#youtube_icon {
+  color: #ff0000;
+}
+
+.other_icons {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+}
+
+.tag {
+  text-transform: uppercase;
+}
+
+#hometag {
+  text-decoration: underline;
+}
+
+.tag a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+
+.tag a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+#Dropdown {
+  display: none;
+}
+
+.tagContainer {
+  display: none;
+}
+.Dropdown_numbers {
+  display: none;
+}
+
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 60.5%;
+  }
+
+  #ngo_Image {
+    width: 250px;
+    height: 120px;
+  }
+
+  .mini_header {
+    width: 95%;
+  }
+
+  .containers {
+    width: 75%;
+    height: 150px;
+  }
+
+  .box {
+    flex-direction: column-reverse;
+    font-weight: 450;
+  }
+
+  .numbers {
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .num {
+    font-size: 2.3rem;
+  }
+
+  .icons {
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .social_icons {
+    justify-content: space-around;
+    width: 20%;
+    margin-right: 4%;
+  }
+
+  #insta_icon,
+  #facebook_icon,
+  #youtube_icon,
+  #search_icon,
+  #shoppingCart_icon,
+  #person2_icon {
+    font-size: 3.5rem;
+  }
+
+  .other_icons {
+    width: 20%;
+  }
+
+  .tags {
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+
+  .tag a {
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 55.5%;
+  }
+
+  #ngo_Image {
+    width: 250px;
+    height: 120px;
+  }
+
+  .mini_header {
+    width: 100%;
+    padding: 0%;
+  }
+
+  .containers {
+    width: 70%;
+    height: 150px;
+  }
+
+  .box {
+    flex-direction: column-reverse;
+    font-weight: 450;
+  }
+
+  .numbers {
+    width: 100%;
+  }
+
+  .num {
+    font-size: 2rem;
+  }
+
+  .icons {
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .social_icons {
+    width: 20%;
+  }
+
+  #insta_icon,
+  #facebook_icon,
+  #youtube_icon,
+  #search_icon,
+  #shoppingCart_icon,
+  #person2_icon {
+    font-size: 3.2rem;
+  }
+
+  .other_icons {
+    width: 20%;
+  }
+
+  .tags {
+    font-size: 1.3rem;
+  }
+
+  .tag a {
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  #Dropdown {
+    display: block;
+    font-size: 2.3rem;
+    padding: 2px;
+    background-color: inherit;
+    border: none;
+  }
+
+  #biggest_d_tag,
+  #join_us {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .containers {
+    width: 70%;
+    height: auto;
+  }
+
+  .box {
+    flex-direction: column;
+  }
+
+  .num {
+    display: none;
+  }
+
+  .Dropdown_numbers {
+    margin-left: auto;
+    display: block;
+  }
+
+  #Dropdown_num {
+    font-size: 2.5rem;
+    padding: 10px;
+    background-color: inherit;
+    margin-bottom: 2%;
+  }
+
+  .social_icons {
+    width: 30%;
+  }
+
+  #insta_icon,
+  #facebook_icon,
+  #youtube_icon,
+  #search_icon,
+  #shoppingCart_icon,
+  #person2_icon {
+    font-size: 4rem;
+    margin-top: 5%;
+  }
+
+  #insta_icon {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    color: white;
+    border-radius: 40%;
+  }
+  #facebook_icon {
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+  }
+
+  #youtube_icon {
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+
+  .other_icons {
+    width: 30%;
+  }
+
+  .tags {
+    margin-top: 5%;
+    font-size: 1.2rem;
+  }
+  
+  #Dropdown{
+    font-size: 2rem;
+  }
+  
+}
+
+@media screen and (max-width: 700px) {
+  #ngo_Image {
+    width: 250px;
+    height: 120px;
+  }
+
+  .containers {
+    width: 70%;
+    border: 2px solid orange;
+    height: 150px;
+    display: none;
+  }
+
+  .tagContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: black;
+  }
+
+  #menubtn {
+    font-size: 4rem;
+    position: absolute;
+    top: 8%;
+    right: 3%;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 25px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav .sidenev_closebtn {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-size: 4rem;
+    outline: none;
+  }
+
+  .sidenev_container {
+    padding: 5%;
+    height: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .sidenev_box {
+    margin-bottom: 5%;
+    height: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    border: 2px solid white;
+  }
+
+  .sidenev_num {
+    font-size: 2.5rem;
+    margin-top: 5%;
+  }
+
+  .sidenev_social_icons {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sidenev_other_icons {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #sidenev_facebook_icon,
+  #sidenev_insta_icon,
+  #sidenev_youtube_icon,
+  #sidenev_search_icon,
+  #sidenev_shoppingCart_icon,
+  #sidenev_person2_icon {
+    font-size: 3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .sidenev_tags {
+    padding: 2%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+    border: 2px solid white;
+  }
+}

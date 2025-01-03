@@ -1,0 +1,80 @@
+.container {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  border: 1px solid blue;
+}
+
+#heading {
+  border: 2px solid black;
+  width: auto;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+#paragraph {
+  border: 2px solid yellow;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.ancher_tag {
+  color: rgb(133, 133, 221);
+  text-decoration: none;
+  &:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+}
+
+.btn {
+  border: none;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(219, 215, 215);
+  &:focus {
+    border: 2px solid black;
+  }
+}
+
+.questions {
+  width: 80%;
+  margin: auto;
+}
+
+.open_index_div {
+  border: 1px solid black;
+  padding: 10px;
+  border-top: none;
+  font-size: 1.9rem;
+  color: red;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px){
+
+
+    .btn {
+        font-size: 1.5rem;
+      }
+
+      .questions {
+        width: 96%;
+        margin: auto;
+      }
+    .open_index_div {
+      font-size: 1.5rem;
+      color: red;
+      letter-spacing: 1px;
+    }
+    
+}

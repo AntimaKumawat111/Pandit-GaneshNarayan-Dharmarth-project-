@@ -1,0 +1,144 @@
+.main_container {
+  /* border: 2px solid green; */
+  width: 92%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: auto;
+}
+
+#connect_with_us,
+#about_foundation_heading,
+#about_foundation_our_impact_heading {
+  /* border: 2px solid black; */
+  width: auto;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.7;
+  /* margin-top: 2%; */
+}
+
+.icons {
+  /* border: 2px solid black; */
+  height: auto;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  /* margin-bottom: 3%; */
+  display: flex;
+  justify-content: space-around;
+}
+
+#insta_icon,
+#facebook_icon,
+#youtube_icon {
+  font-size: 3.5rem;
+}
+
+#insta_icon {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  color: white;
+  border-radius: 40%;
+}
+#facebook_icon {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+#youtube_icon {
+  color: white;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.about_component {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.about_foundation_container {
+  /* border: 2px solid green; */
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.about_foundation_container_aboutContainer_box {
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.carausal_box {
+  border: 2px solid brown;
+  width: 90%;
+  margin: auto;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+  .main_container {
+    border: 2px solid black;
+  }
+
+  #connect_with_us,
+  #about_foundation_heading,
+  #about_foundation_our_impact_heading {
+    border: 2px solid black;
+    height: auto;
+  }
+
+  .icons {
+    border: 2px solid black;
+    width: 40%;
+    justify-content: space-evenly;
+  }
+
+  #insta_icon,
+  #facebook_icon,
+  #youtube_icon {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main_container {
+    border: 2px solid black;
+    margin-top: 300px;
+  }
+
+  #connect_with_us,
+  #about_foundation_heading,
+  #about_foundation_our_impact_heading {
+    font-size: 2.5rem;
+  }
+
+  .icons {
+    width: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .icons {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+}
+
+@media only screen and (max-width: 300px) {
+  .icons {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+}
